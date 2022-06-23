@@ -1,0 +1,6 @@
+img[alt="Image_de_couverture"] {
+    z-index: -10000;
+    width: 1500px;
+    height: 344px;
+    border: 1px solid red;
+}

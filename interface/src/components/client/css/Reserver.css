@@ -1,0 +1,27 @@
+.bothPart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+   /* background-image: url(../../images/isalo.jpg); */
+}
+.rightPart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    border-bottom: 3px solid  rgb(226, 214, 214);
+    border-left: 3px solid  rgb(226, 214, 214);
+}
+.rsrv{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #fcba03;
+    font-size: 1.0rem;
+}
+.leftPart > h2{
+    margin-top: 25px;
+    color: rgb(0, 110, 255);
+}

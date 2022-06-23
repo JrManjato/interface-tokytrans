@@ -1,0 +1,7 @@
+.caisse{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    color: rgb(0, 110, 255);
+}

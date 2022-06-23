@@ -1,0 +1,27 @@
+nav{
+    border-bottom: 1px solid rgb(226, 214, 214);
+}
+img[alt="Logo_Toky_Trans"] {
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 90px;
+    height: 93px;
+    border: 1px solid rgb(255, 255, 255);
+}
+nav .navbar-nav li a{
+    color: rgb(2, 2, 2) !important;
+    font-size: 18px;
+}
+nav .navbar-nav li a:hover{
+    color: #fcba03 !important;
+    border-bottom: 1px solid #fcba03;
+    font-size: 18px;
+}
+nav .navbar-nav li a:focus{
+    color: #fcba03 !important;
+    border-bottom: 3px solid #fcba03;
+    font-size: 18px;
+}
+
+
+

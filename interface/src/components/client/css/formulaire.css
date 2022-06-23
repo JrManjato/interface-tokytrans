@@ -1,0 +1,96 @@
+@keyframes slide {
+    0% {
+        background-image: url(../../images/isalo.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    20% {
+        background-image: url(../../images/baobab.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url(../../images/bemahara.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url(../../images/canal.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    80% {
+        background-image: url(../../images/sakalava.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(../../images/belo.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.conteneur {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    animation-name: slide;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: left;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(230, 221, 221, 0.822);
+    opacity: 0.9;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 30px;
+    flex-basis: 30vw;
+    height: 400px;
+}
+
+.forms_item {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.forms_item>* {
+    height: 45px;
+    width: 75%;
+    margin-top: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.forms>h1 {
+    font-size: 24px;
+    font-style: italic;
+    color: #fcba03;
+}
+
+.forms_item>button {
+    color: white;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 30px;
+    height: 60px;
+    background-color:rgb(0, 140, 255);
+    box-shadow:0 0 10px rgb(0, 140, 255);
+    font-size: 20px;
+}
+
